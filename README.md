@@ -1,7 +1,7 @@
 # mini-teclado-macro
 Mini teclado projetado para eliminar Alt+Tab durante jogos.
 
-Baseado em Arduino Pro Micro, o código está disponivel para modificação caso desejado.
+Baseado em Arduino Pro Micro, o código está disponivel para modificação [aqui](https://github.com/gauerv/mini-teclado-macro/blob/main/keypad-v-1-1.ino).
 
 # Configuração da tecla do microfone:
 
