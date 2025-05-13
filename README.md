@@ -7,7 +7,7 @@ Baseado em Arduino Pro Micro, o código está disponivel [aqui](https://github.c
 
 # Configuração da tecla do microfone:
 
-Obs: O Windows não permite que teclados controlem o estado do microfone, por isso, é necessário um software que implemente essa função. Para esse propósito, recomendarei o MicMute, mas qualquer software com essa capacidade serve.
+Obs: O Windows não permite que teclados controlem o estado do microfone, por isso, o teclado simplesmente pressiona Ctrl+Shift+M, o atalho padrão do Discord. Para que o atalho funcione globalmente no Windows, é necessário um software capaz de controlar o estado do microfone baseado em um atalho. Visando simplicidade, recomendarei o MicMute, mas qualquer software com essa capacidade serve.
 
 ### 1. Baixe o MicMute
 
