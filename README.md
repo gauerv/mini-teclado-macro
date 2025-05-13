@@ -7,7 +7,7 @@ Ideal para streamers, gamers e chamadas profissionais.
 
 ![keypad](https://github.com/user-attachments/assets/1fc1de84-7af5-4429-9255-36386ed9d322)
 
-Baseado em Arduino Pro Micro, o código está disponivel [aqui](https://github.com/gauerv/mini-teclado-macro/blob/main/keypad-v-1-1.ino) para modificação.
+Baseado em Arduino Pro Micro, o código está disponivel [aqui](https://github.com/gauerv/mini-teclado-macro/blob/main/keypad-v-1-2.ino) para modificação.
 
 ## Configuração da tecla do microfone:
 
