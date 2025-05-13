@@ -11,12 +11,13 @@ unsigned long pressTime = 0;
 uint8_t rowPins[ROWS] = {15,14,16};
 uint8_t colPins[COLS] = {9,10};
 
-// Definição dos pinos do encoder
+// Definição dos pinos do encoder.
 #define encoderA 3
 #define encoderB 2
 volatile int encoderPos = 0;        // Posição atual do encoder.
 volatile uint8_t prevState = 0;     // Posição anterior do encoder.
 volatile int8_t pulseCount = 0;     // Quantia de pulsos contados, 2 pulsos equivalem a um clique do encoder, +2 == horário, -2 == anti-horário.
+
 // Tabela verdade para validação de pulsos lidos, pulsos inválidos retornam 0, pulsos horários retornam 1, e pulsos anti-horários retornam -1.
 const int8_t encoderTable[4][4] = {
     // Current State: 00  01  10  11
@@ -27,7 +28,7 @@ const int8_t encoderTable[4][4] = {
 };
 
 void encoderChange(){ // Função chamada pelos interrupts dos pinos encoderA e encoderB.
-  // Ler estado atual do encoder
+  // Ler estado atual do encoder.
   bool stateA = digitalRead(encoderA);
   bool stateB = digitalRead(encoderB);
   uint8_t currentState = (stateA << 1) | stateB; // Salva o estado do encoder em binário (encoderA|encoderB), será dado à tabela verdade como posição 0, 1, 2 ou 3.
