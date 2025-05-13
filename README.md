@@ -1,5 +1,5 @@
 # mini-teclado-macro
-Mini teclado projetado para eliminar Alt+Tab durante jogos.
+Mini teclado projetado para economizar Alt+Tab durante jogos ou trabalho.
 
 ![keypad](https://github.com/user-attachments/assets/1fc1de84-7af5-4429-9255-36386ed9d322)
 
@@ -7,7 +7,7 @@ Baseado em Arduino Pro Micro, o código está disponivel [aqui](https://github.c
 
 # Configuração da tecla do microfone:
 
-Obs: O Windows não permite que teclados controlem o estado do microfone, por isso, o teclado simplesmente pressiona Ctrl+Shift+M, o atalho padrão do Discord. Para que o atalho funcione globalmente no Windows, é necessário um software capaz de controlar o estado do microfone baseado em um atalho. Visando simplicidade, recomendarei o MicMute, mas qualquer software com essa capacidade serve.
+O Windows não permite que teclados controlem o estado do microfone, por isso, o teclado simplesmente pressiona Ctrl+Shift+M, o atalho padrão do Discord. Para que o atalho funcione globalmente no Windows, é necessário um software capaz de controlar o estado do microfone baseado em um atalho. Visando simplicidade, recomendarei o MicMute, mas qualquer software com essa capacidade serve.
 
 ### 1. Baixe o MicMute
 
