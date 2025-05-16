@@ -5,7 +5,7 @@ Mini teclado projetado para reduzir Alt+Tab e distrações.
 Plug-and-play, útil para jogos e reuniões (mute instantâneo, controle de mídia e volume).  
 Ideal para streamers, gamers e chamadas profissionais.
 
-![keypad](https://github.com/user-attachments/assets/1fc1de84-7af5-4429-9255-36386ed9d322)
+![keypad](https://github.com/user-attachments/assets/28d5ec10-0e45-4971-8c51-3ff0a0d45c36)
 
 Baseado em Arduino Pro Micro, o código está disponivel [aqui](https://github.com/gauerv/mini-teclado-macro/blob/main/keypad-v-1-2.ino) para modificação.
 
